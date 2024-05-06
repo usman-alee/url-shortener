@@ -7,11 +7,10 @@ A simple URL shortener service built using Express.js.
 - Introduction
 - Installation
 - Usage
-- License
 
 ## Introduction
 
-URL shorteners are useful tools for creating shorter, more manageable links to long URLs. This project provides a basic implementation of a URL shortener service using Express.js. It includes features such as generating short codes for URLs, redirecting to the original URLs, and handling retries for failed redirects.
+This project provides a basic implementation of a URL shortener service using Express.js. It includes features such as generating short codes for URLs, redirecting to the original URLs, and handling retries for failed redirects.
 
 ## Installation
 
@@ -50,5 +49,3 @@ To access the original URL associated with a short code, make a GET request to `
 - **Retries for Failed Redirects**: 
 Our service handles retries for failed redirects, attempting up to a maximum of 3 times using the `redirectWithRetry` function.
 
-## License
-This project is licensed under the ISC License. See the LICENSE file for details.
